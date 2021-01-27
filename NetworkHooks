@@ -1,0 +1,15 @@
+1. Wireshark Compilation :
+-------------------------------------------------------------------------------------
+https://kifarunix.com/install-latest-wireshark-on-ubuntu-18-04/
+NOTES : Works perfectly for 3.2.10 for 3.4.2 an additional step is required "sudo apt install libc-ares-dev" Reference : https://www.howtoinstall.me/ubuntu/18-04/libc-ares-dev/
+
+2. IP Tables flow :
+-------------------------------------------------------------------------------------
+https://serverfault.com/questions/586628/packets-sent-on-virtual-ip-dont-hit-iptables-rule
+
+3. Clear IPtable Counters :
+--------------------------------------------------------------------------------------
+sudo iptables -Z
+https://www.digitalocean.com/community/tutorials/how-to-list-and-delete-iptables-firewall-rules#:~:text=To%20clear%20the%20counters%20for%20all%20rules%20in%20a%20specific,sudo%20iptables%20%2DZ%20INPUT
+https://www.cyberciti.biz/faq/linux-iptables-insert-rule-at-top-of-tables-prepend-rule/
+https://www.karlrupp.net/en/computer/nat_tutorial
